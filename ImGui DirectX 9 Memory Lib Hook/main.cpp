@@ -19,9 +19,6 @@ long __stdcall D3D9::hkEndScene(LPDIRECT3DDEVICE9 pDevice)
 {
 	if (!init)
 	{
-		char buffer[64];
-		snprintf(buffer, sizeof(buffer), "EndScene Address: %x", EndSceneAddress);
-		MessageBoxA(NULL, buffer, "DBG", MB_OK);
 		InitImGui(pDevice);
 		init = true;
 	}
