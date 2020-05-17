@@ -1,9 +1,6 @@
 #include "pch.h"
 #include "d3d9.h"
 #include "hook.h"
-#include "imgui/imgui.h"
-#include "imgui/imgui_impl_win32.h"
-#include "imgui/imgui_impl_dx9.h"
 
 void D3D9::InitImGui(LPDIRECT3DDEVICE9 pDevice)
 {
